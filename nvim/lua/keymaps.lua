@@ -13,3 +13,4 @@ vim.keymap.set('n', '<leader>ft', function()
 end, { noremap = true, silent = true })
 
 vim.keymap.set("n", "<m-tab>", ":BufferLineCycleNext<CR>")
+vim.keymap.set("n", "<m-w>", ":BufferLinePickClose<CR>")
